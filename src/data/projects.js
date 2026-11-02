@@ -67,33 +67,35 @@ export const designProjects = [
           {
             version: "01",
             title: "Initial Homepage Design",
-            image: "",
+            image: "/images/HomePage_LowFi.png",
             description:
-              "Describe the original homepage concept and the experience you wanted to create.",
+              "My initial homepage design focused on creating a simple entry point for users to begin exploring Black history. The layout featured a search bar, a Start Exploring button, and navigation options for the timeline, map, and historical themes. I wanted users to immediately understand that the website was designed to help them explore how historical events relate to the present.",
             changes:
-              "Describe the design limitations or opportunities you identified.",
-            reason: "Explain why you decided to revise this design.",
+              "This first concept established the basic navigation and search functionality that would guide users through the website. However, the design relied heavily on the search bar and provided little information about what users could discover. The large amount of empty space also presented an opportunity to better communicate the website's purpose and introduce its main features.",
+            reason:
+              "I wanted the homepage to be straightforward and easy to navigate, especially for users who might not be familiar with the historical topics being covered. By emphasizing search and providing a clear starting point, my goal was to make exploring the website feel approachable rather than overwhelming. This initial concept also helped me recognize the importance of giving users more context before asking them to begin exploring.",
           },
           {
             version: "02",
             title: "Revised Homepage Design",
-            image: "",
-            description: "Describe the second version of your homepage.",
+            image: "/images/BHL_HomePage_2.png",
+            description:
+              "My second homepage design focused on communicating the purpose of Black History Linked more clearly while giving users multiple ways to begin exploring. I kept the search functionality from my original concept but introduced a stronger headline, supporting information, and dedicated sections for historical events, modern issues, and connections. I also added a visual example of how historical developments can be connected to present-day issues, along with a section encouraging users to explore the timeline.",
             changes:
-              "Explain what you changed in the layout, navigation, content, or visual hierarchy.",
+              "Compared to my original homepage, this version uses the available space more intentionally and provides more context before asking users to explore. The first design relied heavily on a search bar and a single button, while the revised design introduces three exploration cards that highlight the website's main features. I also added a historical pathway example connecting Reconstruction, Jim Crow, redlining, and wealth inequality. The typography, navigation, and overall layout were refined to create a clearer hierarchy between the website's purpose and its interactive features.",
             reason:
-              "Explain how these changes were intended to improve the user experience.",
+              "One of the main limitations of my original homepage was that users had little guidance about what they could actually do on the website. I wanted the second iteration to introduce the platform's purpose before directing users toward specific features. Providing separate entry points for historical events, modern issues, and connections was intended to support different ways of exploring the content. I also included the historical pathway example to demonstrate the central idea behind Black History Linked: understanding history through relationships across time rather than viewing events in isolation.",
           },
           {
             version: "03",
             title: "Current Homepage Design",
             image: "/images/BHL_Full_Homepage.png",
             description:
-              "Describe the current homepage and how it introduces the purpose of Black History Linked.",
+              "My current homepage design focuses on immediately communicating the purpose of Black History Linked and directing users toward its main features. I introduced a more prominent hero section with the statement Black history is connected, followed by a brief explanation of how the website explores relationships between historical events, people, policies, movements, and modern societal issues. Two clear calls to action allow users to explore historical connections or view the timeline.",
             changes:
-              "Explain the most important improvements compared with your previous designs.",
+              "Compared to the previous iterations, I moved away from making the search bar the main focus of the homepage. Instead, I placed greater emphasis on explaining the website's purpose and highlighting its most important features. I also introduced a darker hero section, larger typography, and more prominent action buttons to establish a stronger visual hierarchy. The navigation was simplified to make it easier for visitors to access the different parts of the website.",
             reason:
-              "Explain how the current design supports the needs of your intended audience.",
+              "I wanted users to understand what makes Black History Linked different from a traditional history website as soon as they arrive. Earlier designs provided several exploration options, but I felt the homepage needed a clearer introduction to the website's central concept. By emphasizing historical connections in the headline and making the Connections page a primary destination, I intended to guide users toward the feature that best represents the project's purpose. The stronger visual hierarchy was also intended to make the homepage easier to understand and navigate.",
           },
         ],
       },
@@ -108,33 +110,35 @@ export const designProjects = [
           {
             version: "01",
             title: "Initial Connections Design",
-            image: "",
+            image: "/images/Connections_LowFi.png",
             description:
-              "Describe your first concept for presenting historical connections.",
+              "My initial Connections page design focused on visually demonstrating how different periods of Black history are connected. I used historical images and a dashed connecting line to represent a relationship between the transatlantic slave trade and Reconstruction. The goal was to introduce users to the bigger picture of Black history by encouraging them to look beyond individual events and recognize relationships across different time periods.",
             changes:
-              "Identify the limitations or challenges you noticed in the original design.",
-            reason: "Explain why the initial design needed further refinement.",
+              "This first concept introduced the idea of displaying historical relationships visually instead of relying entirely on written explanations. However, the design only showed two historical topics connected by a line, without explaining the relationship between them. It also lacked supporting information and a clear way for users to explore additional connections. These limitations highlighted the need for a more informative and interactive approach.",
+            reason:
+              "I wanted users to recognize that Black history consists of interconnected events and developments rather than isolated moments. Using images and a visual connection was intended to make that concept easier to recognize at a glance. However, the initial design helped me understand that showing a connection is not enough on its own. Users also need historical context, explanations, and supporting sources to understand why a relationship matters.",
           },
           {
             version: "02",
             title: "Revised Connections Design",
-            image: "",
+            image: "/images/BHL_Connections_2.png",
             description:
-              "Describe how the Connections page evolved during development.",
+              "My second Connections page design focused on developing the original idea of visually connecting historical events into a more structured exploration experience. Instead of showing only two historical images joined by a dashed line, I introduced a network-style visualization containing multiple historical events and modern issues. I also added pathway filtering, search functionality, and an information panel that provides context about a selected historical event and its related topics.",
             changes:
-              "Explain changes you made to the interface, navigation, or how connections are presented.",
+              "The biggest improvement was moving away from the original two-image concept toward an interface designed to support multiple historical relationships. I replaced the large historical images with labeled nodes representing different events and issues, allowing more information to fit within the visualization. I also introduced a distinction between historical events and modern issues, along with a panel that displays information about a selected topic. The addition of search and pathway controls gives users more ways to narrow their exploration instead of relying entirely on the visual layout.",
             reason:
-              "Explain how these changes were intended to make historical relationships easier to explore.",
+              "Although my original design introduced the idea of historical connections, it did not provide enough information for users to understand why the events were related. I wanted this iteration to move closer to an interactive experience where users could select a historical event and discover related developments. The information panel was intended to provide context without requiring users to leave the visualization. I also introduced filtering and search controls because I recognized that displaying more historical events would make the graph increasingly difficult to navigate without ways to focus on specific topics.",
           },
           {
             version: "03",
             title: "Current Connections Design",
             image: "/images/BHL_Connections.png",
-            description: "Describe the current design of the Connections page.",
+            description:
+              "My current Connections page centers around an interactive network graph that allows users to explore documented relationships between Black historical events and modern societal issues. Historical events and modern issues are represented by different colored nodes, while connecting lines represent relationships between them. Users can search for topics, filter by historical pathways, and navigate the graph using zoom and reset controls. An information panel provides additional context when users explore the network.",
             changes:
-              "Highlight the improvements made since the original concept.",
+              "The biggest improvement from the second iteration was developing the network visualization into a more detailed and interactive experience. The previous design introduced multiple historical nodes and a contextual information panel, but it did not clearly communicate all the relationships between those topics. In the current design, I added visible connecting lines, expanded the number of historical events and modern issues, and introduced graph navigation controls. I also refined the instructions and legend to help users understand how to interact with the visualization. The interface now provides more opportunities to explore specific historical relationships rather than simply viewing an overview of connected topics.",
             reason:
-              "Explain how the current design supports the website’s educational purpose.",
+              "One of the main challenges of this project has been finding a way to present historical relationships without overwhelming users with information. I wanted the Connections page to encourage exploration while still providing enough guidance to make the graph understandable. Distinguishing historical events from modern issues helps users recognize the different types of information being presented, while search and pathway filtering allow them to narrow their focus. I also designed the information panel to provide context without requiring users to leave the graph. Together, these decisions were intended to create a more informative and engaging way to understand how historical developments relate to present-day issues.",
           },
         ],
       },
@@ -149,34 +153,35 @@ export const designProjects = [
           {
             version: "01",
             title: "Initial Modern Issues Design",
-            image: "",
+            image: "/images/BHL_Issues_1.png",
             description:
-              "Describe your first concept for the Modern Issues page.",
+              "My initial Modern Issues page design focused on introducing users to contemporary societal issues and their connections to Black history. I organized four issues into a simple list that included a title, brief description, and an option to explore each topic further. I wanted users to have a straightforward way to discover the issues covered by the website without overwhelming them with information.",
             changes:
-              "Explain the design limitations or areas that needed improvement.",
-            reason: "Explain what motivated your next design iteration.",
+              "This first concept established the basic structure for presenting modern societal issues. Instead of displaying everything in one large section, I separated each issue into its own row to make the information easier to scan. However, the design offered limited ways to search or filter issues, and it did not clearly show the historical pathways associated with each topic. These limitations became areas I wanted to address in the next iteration.",
+            reason:
+              "My main priority was making the Modern Issues page approachable for users who might not already understand the historical context behind these topics. I kept the layout simple so users could focus on the issues themselves. However, I also recognized that providing a list of issues was only part of the solution. The page needed to do more to help users discover the historical relationships that make Black History Linked different from a traditional informational website.",
           },
           {
             version: "02",
             title: "Revised Modern Issues Design",
-            image: "",
+            image: "/images/BHL_Issues_2.png",
             description:
-              "Describe the second version of the Modern Issues page.",
+              "For the second iteration, I focused on making the Modern Issues page more organized and interactive. I replaced the original list layout with a grid of issue cards and introduced search and historical pathway filtering options. Each card now includes a brief description, a related pathway, and an option to follow historical connections. I also expanded the design to include additional issues, giving users more topics to explore.",
             changes:
-              "Explain changes to content organization, navigation, or the presentation of issues.",
+              "The biggest change was moving from a basic list to a card-based layout that provides more information without making the page difficult to navigate. I added a search bar and pathway filter to give users more control over how they find issues. The cards also introduce labels for historical pathways and space for connection counts, making the relationship between modern issues and historical events more visible. I also simplified the navigation and improved the spacing between sections to create a more consistent visual hierarchy.",
             reason:
-              "Explain how these changes were intended to make the information easier to understand.",
+              "I wanted users to be able to explore modern issues based on their interests rather than having to browse through every topic individually. Adding search and filtering options was intended to make the page easier to navigate as more issues are added to the website. I also wanted the issue cards to communicate more than just a title and description. By introducing historical pathways and connection information, the design begins showing users how each modern issue fits into the larger purpose of Black History Linked.",
           },
           {
             version: "03",
             title: "Current Modern Issues Design",
-            image: "/images/BHL_ModernIssues.png",
+            image: "/images/BHL_Issues_Current.png",
             description:
-              "Describe the current Modern Issues page and its primary features.",
+              "My current Modern Issues page provides a more structured way for users to explore contemporary societal issues and the historical developments connected to them. The page features six issues displayed in a three-column card layout, with each card containing a title, description, related historical pathways, and the number of documented historical connections. I also retained the search and pathway filtering options introduced in the second iteration, allowing users to find issues based on their interests.",
             changes:
-              "Highlight the most important improvements over earlier versions.",
+              "Compared to the second iteration, I refined the layout to display three issue cards per row instead of two, making better use of the available screen space. I also updated the issue titles and descriptions to more accurately represent the topics covered by Black History Linked, including anti-Black violence, incarceration disparities, housing inequality, educational opportunity, and voting access. The historical pathway labels were expanded to reflect the project's more specific thematic categories. I also simplified the cards' visual presentation and adjusted the typography and spacing to create a more consistent appearance across the page.",
             reason:
-              "Explain how the final layout helps users discover and understand contemporary issues.",
+              "My goal was to make it easier for users to understand the range of modern issues covered by Black History Linked while recognizing that each issue has historical context worth exploring. The card-based layout allows visitors to compare topics without reading lengthy explanations, while the pathway labels help communicate how those issues relate to broader historical themes. I also wanted the page to remain manageable as more issues and connections are added to the database. Keeping search and filtering available was intended to support that growth while allowing users to focus on topics that interest them.",
           },
         ],
       },
