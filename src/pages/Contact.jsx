@@ -36,7 +36,7 @@ export default function Contact() {
               meaningful<span>.</span>
             </h1>
             <p className="contact-intro">
-              Whether it's an internship, a job opprtunity, or just a
+              Whether it's an internship, a job opportunity, or just a
               conversation about design and technology, I'd love to connect.
             </p>
             <div className="contact-availability">

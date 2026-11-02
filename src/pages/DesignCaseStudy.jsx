@@ -120,7 +120,6 @@ export default function DesignCaseStudy() {
             <h2>Finding a way forward.</h2>
             <p>{project.approach}</p>
             <div className="case-note">
-              <span>YOUR PROCESS GOES HERE</span>
               {project.processImages?.map((image) => (
                 <figure className="process-image" key={image.src}>
                   <img src={image.src} alt={image.alt} />
